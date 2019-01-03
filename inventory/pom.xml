@@ -84,7 +84,10 @@
 
     <dependencies>
 
-<!-- Add monitor fraction -->
+        <dependency>
+            <groupId>org.wildfly.swarm</groupId>
+            <artifactId>monitor</artifactId>
+        </dependency>
 
         <dependency>
             <groupId>org.wildfly.swarm</groupId>
